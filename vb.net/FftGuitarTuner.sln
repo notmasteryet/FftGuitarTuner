@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+# SharpDevelop 3.2.0.5777
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "SoundCapture", "SoundCapture\SoundCapture.vbproj", "{A1349448-8A28-4545-8651-8EC9A8C3D2F9}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "SoundAnalysis", "SoundAnalysis\SoundAnalysis.vbproj", "{1B9C7BF4-6EA3-44E4-A29E-98ECD020F20C}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "FftGuitarTuner", "FftGuitarTuner\FftGuitarTuner.vbproj", "{CC4024DD-6649-472A-92E7-3EF6392BE713}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A1349448-8A28-4545-8651-8EC9A8C3D2F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1349448-8A28-4545-8651-8EC9A8C3D2F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1349448-8A28-4545-8651-8EC9A8C3D2F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1349448-8A28-4545-8651-8EC9A8C3D2F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B9C7BF4-6EA3-44E4-A29E-98ECD020F20C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B9C7BF4-6EA3-44E4-A29E-98ECD020F20C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B9C7BF4-6EA3-44E4-A29E-98ECD020F20C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B9C7BF4-6EA3-44E4-A29E-98ECD020F20C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC4024DD-6649-472A-92E7-3EF6392BE713}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC4024DD-6649-472A-92E7-3EF6392BE713}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC4024DD-6649-472A-92E7-3EF6392BE713}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC4024DD-6649-472A-92E7-3EF6392BE713}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
