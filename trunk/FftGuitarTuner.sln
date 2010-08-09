@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual C# Express 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FftGuitarTuner", "FftGuitarTuner\FftGuitarTuner.csproj", "{088AF27F-6F9D-4481-9B85-8E67C49D75EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoundCapture", "SoundCapture\SoundCapture.csproj", "{DAE12676-B26C-4487-A1A5-D7FE2E64E6CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoundAnalysis", "SoundAnalysis\SoundAnalysis.csproj", "{ABA54DC3-324B-49DE-B79E-C4F573306E4F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{088AF27F-6F9D-4481-9B85-8E67C49D75EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{088AF27F-6F9D-4481-9B85-8E67C49D75EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{088AF27F-6F9D-4481-9B85-8E67C49D75EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{088AF27F-6F9D-4481-9B85-8E67C49D75EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAE12676-B26C-4487-A1A5-D7FE2E64E6CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAE12676-B26C-4487-A1A5-D7FE2E64E6CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAE12676-B26C-4487-A1A5-D7FE2E64E6CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAE12676-B26C-4487-A1A5-D7FE2E64E6CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABA54DC3-324B-49DE-B79E-C4F573306E4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABA54DC3-324B-49DE-B79E-C4F573306E4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABA54DC3-324B-49DE-B79E-C4F573306E4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABA54DC3-324B-49DE-B79E-C4F573306E4F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
