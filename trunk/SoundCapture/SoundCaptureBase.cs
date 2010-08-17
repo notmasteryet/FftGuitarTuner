@@ -11,7 +11,6 @@ namespace SoundCapture
     public abstract class SoundCaptureBase : IDisposable
     {
         const int BufferSeconds = 3;
-        const int NotifyPointsInSecond = 2;
 
         // change in next two will require also code change
         const int BitsPerSample = 16; 
@@ -20,6 +19,17 @@ namespace SoundCapture
         int sampleRate = 44100;
         bool isCapturing = false;
         bool disposed = false;
+        int notifyPointsInSecond = 2;
+
+        public int NotifyPointsInSecond
+        {
+            get { return notifyPointsInSecond; }
+            set 
+            {
+                if (value < 2) throw new ArgumentOutOfRangeException();
+                notifyPointsInSecond = value; 
+            }
+        }
 
         public bool IsCapturing
         {
